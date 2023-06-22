@@ -1,7 +1,6 @@
 package LoginPage;
 
-import java.util.ArrayList;
-import java.util.List;
+
 import java.util.Scanner;
 
 public class UserService {
@@ -39,7 +38,6 @@ public class UserService {
               must end with gmail.com, hotmail.com or yahoo.com
               In the username part of the mail (before the @) there can only be upper and lowercase letters, number or -._ symbols.
          */
-
 
         boolean isValid= true;
         boolean existsEmail;
